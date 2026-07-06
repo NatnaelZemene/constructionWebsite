@@ -12,9 +12,9 @@ import emailjs from '@emailjs/browser'
 // 2. Add an Email Service and get the SERVICE_ID.
 // 3. Create an Email Template and get the TEMPLATE_ID.
 // 4. Get your PUBLIC_KEY from the Account > API Keys section.
-const SERVICE_ID = 'YOUR_SERVICE_ID'
-const TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
-const PUBLIC_KEY = 'YOUR_PUBLIC_KEY'
+const SERVICE_ID = 'service_zqc88jn'
+const TEMPLATE_ID = 'template_x3qqcsp'
+const PUBLIC_KEY = 'BqvIIF3rLAWydbgqs'
 
 const PROJECT_TYPES = [
   'General Contracting',
