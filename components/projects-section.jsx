@@ -10,11 +10,11 @@ const FILTERS = ['All', 'Residential', 'Commercial', 'Civil Works']
 
 const projects = [
   { image: '/images/projects/project1.png', title: 'Gondar Riverside Villa Complex', category: 'Residential', location: 'Gondar, Amhara', description: 'A modern residential compound of 12 luxury villas with shared green spaces, built to the highest finishing standards.' },
-  { image: '/images/projects/project2.jpg', title: 'Kebele Commercial Center', category: 'Commercial', location: 'Gondar, Amhara', description: 'A three-storey commercial facility housing retail units, offices, and a community hall, completed ahead of schedule.' },
+  { image: '/images/projects/project2.png', title: 'Kebele Commercial Center', category: 'Commercial', location: 'Gondar, Amhara', description: 'A three-storey commercial facility housing retail units, offices, and a community hall, completed ahead of schedule.' },
   { image: '/images/projects/project3.jpg', title: 'Tekeze River Bridge Access Road', category: 'Civil Works', location: 'North Gondar Zone', description: 'A 4.2 km access road project including culverts, drainage channels, and retaining walls to serve rural communities.' },
-  { image: '/images/projects/project4.jpg', title: 'Azezo Apartment Block', category: 'Residential', location: 'Azezo, Gondar', description: 'A G+4 residential apartment building with 24 units, modern finishes, and underground parking.' },
-  { image: '/images/projects/project5.jpg', title: 'Maraki Hotel & Conference Center', category: 'Commercial', location: 'Gondar City', description: 'A boutique hotel and conference facility with 48 guest rooms, a rooftop terrace, and a 200-seat conference hall.' },
-  { image: '/images/projects/project6.jpg', title: 'Chilga Rural Road Rehabilitation', category: 'Civil Works', location: 'Chilga Woreda, Amhara', description: 'Road rehabilitation and drainage improvement works covering 7 km of gravel road serving farming communities.' },
+  { image: '/images/projects/project4.png', title: 'Azezo Apartment Block', category: 'Residential', location: 'Azezo, Gondar', description: 'A G+4 residential apartment building with 24 units, modern finishes, and underground parking.' },
+  { image: '/images/projects/project5.png', title: 'Maraki Hotel & Conference Center', category: 'Commercial', location: 'Gondar City', description: 'A boutique hotel and conference facility with 48 guest rooms, a rooftop terrace, and a 200-seat conference hall.' },
+  { image: '/images/projects/project6.png', title: 'Chilga Rural Road Rehabilitation', category: 'Civil Works', location: 'Chilga Woreda, Amhara', description: 'Road rehabilitation and drainage improvement works covering 7 km of gravel road serving farming communities.' },
 ]
 
 function LightboxModal({ projects, currentIndex, onClose, onPrev, onNext }) {
